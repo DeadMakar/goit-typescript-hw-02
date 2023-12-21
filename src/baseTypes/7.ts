@@ -4,15 +4,17 @@
 */
 
 enum WeekDay {
-  Moyday,
-  Tuesday,
-  Wednesday,
-  Thursday,
-  Friday,
-  Saturday,
-  Sunday,
+  Moyday = "Moyday",
+  Tuesday = "Tuesday",
+  Wednesday = "Wednesday",
+  Thursday = "Thursday",
+  Friday = "Friday",
+  Saturday = "Saturday",
+  Sunday = "Sunday",
 }
 
 function isWeekend(day: WeekDay): boolean {
   return day === WeekDay.Saturday || day === WeekDay.Sunday;
 }
+
+export {};
