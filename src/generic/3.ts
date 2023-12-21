@@ -3,7 +3,7 @@
   Використовуйте generics, щоб вказати, що ці об'єкти можуть бути будь-якого типу.
 */
 
-function merge<T, K>(objA: T, objB: K) {
+function merge<Obj, T, K>(objA: T, objB: K) {
   return Object.assign({}, objA, objB);
 }
 
